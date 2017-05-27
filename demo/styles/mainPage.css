@@ -1,0 +1,238 @@
+body{
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+.section-1{
+  height: 50%;
+  display: flex;
+  justify-content:center;
+  flex-direction: row;
+  align-items: center;
+  height: 150px;
+  background-color: white;
+}
+#logo{
+  margin-top: 10px;
+}
+#kz{
+  margin-top: 30px;
+  width: 200px;
+  height: 130px;
+  margin-left: 5px;
+}
+.left-logo{
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+#logo-1{
+  width: 100px;
+  height: 70px;
+}
+#alt-logo{
+  font-family: "Courier New", Courier, monospace;
+  color: #008080;
+  font-size: 12px;
+}
+.tags{
+  color: #008080;
+}
+.navbar.navbar-default{
+  background-color: white;
+  border-top:none;
+  width: 100vw;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.nav.navbar-nav.active{
+  color: #C1E2CA;
+}
+.nav.navbar-nav a{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.carousel.slide{
+  margin-top: -20px;
+  width: 1100px;
+  height: 600px;
+  margin-left: 130px;
+  align-items: center;
+}
+.item.active img{
+  margin-left: 120px;
+  width: 80%;
+  height: 100%;
+}
+.item img{
+  margin-left: 120px;
+  width: 80%;
+  height: 100%;
+}
+.left.carousel-control{
+  width: 50px;
+  background-image: none;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+.right.carousel-control{
+  width: 50px;
+  background-image: none;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+#wpcumuluswidgetcontent{
+  margin-top: 10px;
+}
+#wpcumuluswidgetcontent p a{
+  color: #008080;
+}
+.row{
+  z-index: 10;
+}
+#search{
+  height: 100px;
+  background-color: #00354D;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+.glyphicon.glyphicon-search{
+  font-size: 20px;
+  color: white;
+}
+.btn-default {
+  background-color: transparent;
+  border: none;
+}
+.form-control{
+  background-color: transparent;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: white;
+}
+.section-6{
+  border-top: 1px dashed grey;
+  background-color:#00354D;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+.section-6 p{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: white;
+}
+
+.front-slide{
+  position: absolute;
+  z-index: 9;
+  top: 200px;
+  width: 100vw;
+  height: 750px;
+  background-color: rgba(4,126,128,0.7);
+}
+.header{
+  margin-top: 0px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 48px;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  background-color: #008080;
+}
+.hole1{
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  z-index: 5;
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/alina.jpg);
+  background-origin: padding-box;
+  border-radius: 150px;
+  border: 2px solid #00354D;
+}
+.hole2{
+  position: absolute;
+  right: 250px;
+  top: 100px;
+  z-index: 5;
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/kamila.jpg);
+  background-size: 500px;
+  background-position: center;
+  border-radius: 150px;
+  border: 2px solid #00354D;
+}
+.person1{
+  position: relative;
+  width: 326px;
+  top: 370px;
+  left: 250px;
+}
+#description1{
+  width: 326px;
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+#description2{
+  width: 326px;
+  color: white;
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.person2{
+  position: absolute;
+  top: 430px;
+  right: 230px;
+}
+.label{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  background-color: #008080;
+  border: 2px solid #00354D;
+}
+#parent{
+  position: relative;
+  top: -20px;
+}
+#parent img{
+  position:absolute;
+  width: 100%;
+  height: 750px;
+  z-index:1;
+  visibility: hidden;
+}
+#parent img.active{
+  visibility:visible;
+  z-index:3;
+}
+.foot{
+  position: relative;
+  z-index: 10;
+  top: 729px;
+}

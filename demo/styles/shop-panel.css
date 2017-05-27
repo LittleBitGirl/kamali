@@ -1,0 +1,70 @@
+#shop-header{
+  margin-top: -20px;
+}
+#shop-block{
+  width: 80%;
+  position: absolute;
+  left: 280px;
+  top: 280px;
+  display: inline;
+
+}
+#stackPanel{
+  width: 19%;
+  height: 100vh !important;
+  padding-right: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items:flex-start;
+  border-bottom: none;
+  margin-top: 0px;
+}
+.nav.nav-pills.nav-stacked{
+  position: fixed;
+  margin-left: -110px;
+}
+#leftNav{
+  padding: 0px;
+  width: 230px;
+}
+.collapse.navbar-collapse{
+  padding: 0px;
+}
+.nav.nav-pills.nav-stacked li a{
+  color: grey;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.nav.nav-pills.nav-stacked li a:hover{
+  color: #00354D;
+}
+.thumbnail{
+  border: 1px solid #008080;
+  height: 500px;
+}
+.thumbnail img{
+  height: 300px;
+}
+.caption h3{
+  color: #008080;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.caption p{
+  color: #08435D;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+.btn.btn-primary{
+  font-family: "Courier New", Courier, monospace;
+  background-color:#008080;
+  margin-left: 50px;
+}
+.buttns{
+  margin-left: 4 0px;
+}
